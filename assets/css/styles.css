@@ -1,0 +1,238 @@
+/*Containers*/
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 .8rem;
+}
+
+.centralizar {
+text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Textos*/
+
+body, footer {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  line-height: 140%;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 140%;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue {
+  color: #1BAFFF;
+}
+
+.paragrafo-destaque {
+  font-size: 1.2rem;
+  line-height: 140%;
+}
+
+.background-padrao {
+  background: #1BAFFF;
+}
+
+/*Espaçamentos*/
+
+.margin-y-1rem {
+  margin: 1rem 0;
+}
+
+.margin-y-2rem {
+  margin: 3rem 0;
+}
+
+.margin-y-3rem {
+  margin: 3rem 0;
+}
+
+.padding-x-1rem {
+  padding: 0 1rem;
+}
+
+.padding-y-1rem {
+  padding: 1rem 0;
+}
+
+.padding-y-2rem {
+  padding: 2rem 0;
+}
+
+.padding-y-3rem {
+  padding: 3rem 0;
+}
+
+.padding-2rem {
+  padding: 2rem;
+}
+
+
+/*backgrounds e imagens*/
+
+.background-ursinhos {
+  background-image: url(../img/background-ursinhos.png);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*Botões*/
+
+.button {
+  display: inline-block;
+  color: white;
+  background: #EC268F;
+  padding: 1rem 5rem;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+/*Grids*/
+
+.grid-2col {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1.5fr;
+  place-items: center;
+}
+
+.grid-2col-no-place-items {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1.2fr;
+}
+
+@media screen  and (max-width:800px){
+  .grid-2col, .grid-2col-no-place-items {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-cards-container {
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.grid-cards {
+  text-align: center;
+}
+
+.grid-cards p:nth-child(2) {
+  font-weight: bold;
+}
+
+
+/*Formulário*/
+
+.form {
+  background-color: #EC268F;
+  max-width: 500px;
+}
+
+#rd-form-kxomhqi1 .bricks-form__label {
+  color: white !important;
+}
+
+.form span {
+  color: white !important;
+}
+
+.form > p {
+  font-size: 1.5rem;
+}
+
+#rd-column-kxomhqi0 > div {
+  background-color: #EC268F !important;
+}
+
+#rd-form-kxomhqi1 .bricks-form__input  {
+  border-radius: 50px !important;
+}
+
+#rd-column-kxomhqi0 > div {
+  padding: 0 2rem !important;
+}
+
+.sessao-formulario:nth-child(1) {
+  background-color: #1BAFFF;
+}
+
+/*Footer*/
+
+footer {
+  background: #1BAFFF;
+}
+
+footer p {
+  font-size: .8rem;
+}
+
+.footer-conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  background: #1BAFFF;
+  color: white;
+}
+
+
+/*Responsivo*/
+
+@media screen and (max-width:800px) {
+  .logo-bear-toys {
+    width: 180px;
+  }
+
+  h1, p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  
+  .button {
+    padding: 1rem 1rem;
+    min-width: 180px;
+    text-align: center;
+    margin: 1.5rem auto;
+  }
+
+  .grid-2col {
+    text-align: center;
+  }
+
+  .footer-conteudo {
+    justify-content: center;
+  }
+}
+
+
+
+
