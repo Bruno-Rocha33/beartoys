@@ -9,7 +9,7 @@ Landing page das máquinas de diversão gruas da Bear Toys.
 
 ## 🎨 Demonstração
 
-![](https://i.postimg.cc/9XKs2YQc/bear-toys.png)
+![](https://i.postimg.cc/t4wHCM29/bear.png)
 
 
 ## Autor
